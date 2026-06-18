@@ -14,7 +14,7 @@ import {
 CONFIG: n8n webhook URL
 ========================================
 */
-const N8N_WEBHOOK_URL = "https://russie.app.n8n.cloud/webhook/2628b0f4-sdfasdflsadkfj3698-45ba-a098-21b54b5b8a7e";
+const N8N_WEBHOOK_URL = "https://russie.app.n8n.cloud/webhook/2628b0f4-3698-45ba-a098-21b54b5b8a7e";
 
 /*
 ========================================
