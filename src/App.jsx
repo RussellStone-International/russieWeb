@@ -141,6 +141,14 @@ function App() {
         }
 
         window.addEventListener('message', handleMessage)
+
+        if (import.meta.env.DEV){
+            sessionStorage.setItem('bb_user_id', 'dev-user-001')
+            sessionStorage.setItem('user_name', 'Dev')
+            sessionStorage.setItem('user_surname', 'Tester')
+            setIsInitialized(true)
+            console.log('DEV mode: auto-initialized chat')
+        }
         
         return () => {
             window.removeEventListener('message', handleMessage)
